@@ -13,9 +13,12 @@
         margin:10px auto;
     }
     .header{
+        width:90%
+        height: auto;
         -webkit-box-align: center;
         align-items: center;
         background-color: white;
+        
     }
     .home{
         -webkit-box-flex: 0;
@@ -44,10 +47,11 @@
         float: left;
     }
     .logo_middle{
+        border-style: none solid none none;
+        border-width: 1px;
+        width: 1px;
         height: 28px;
         margin: 0 16px;
-        transition: opacity .1s;
-        width: 1px;
         float: left;
     }
     .logo_2{
@@ -68,16 +72,22 @@
 
     #compas{
         width: 24px;
-        height: auto;
         float: left;
     }
     #like{
         width: 30px;
-        height: auto;
     }
     #profile{
         width: 24px;
         height: auto;
+        border-radius: 50%;
+    }
+
+
+    #u_pic{
+        border-radius: 50%;
+        width: 32px;
+
     }
     
 
@@ -115,9 +125,24 @@
                     <img id="like" src="/img/insta/like.svg" alt="">
                 </div>
                 <div class="menu_3">
-                    <img id="profile" src="/img/insta/compas.svg" alt="">
+                    <img id="profile" src="/img/insta/user.png" alt="">
                 </div>
             </div>
+        </div>
+
+        <!--main-->
+        <div class="main_user">
+            <div class="pic">
+                <img id="u_pic" src="/img/insta/user.png" alt="">
+            </div>
+            <div class="nick">
+                <a href="#">
+                    <div>
+                        <p>walkToPayment</p>
+                    </div>
+                </a>
+            </div>
+            
         </div>
     </div>
     
