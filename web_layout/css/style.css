@@ -23,15 +23,14 @@ body{
     width: 222px;
     float: left;
     display: flex;
+    justify-content: space-between;
     
-}
-img{
-    object-fit: fill;
 }
 .img_1st{
     width: 36px;
     height: 36px;
     float: left;
+    
 }
 
 .search{
@@ -42,15 +41,9 @@ img{
     display: flex;
 }
 
-.user_compas{
-    width: 36px;
-    height: 32px;
-
-}
-.user_like{
+.user img{
     width: 32px;
-    height: 32px;
-    object-fit: fill;
+    height: 32px;;
 }
 
 
